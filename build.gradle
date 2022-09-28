@@ -10,7 +10,6 @@ allprojects {
         compileClasspath // Fabric-loom needs this for remap jar for some reason
     }
 
-    spark-fabric.tasks.all { task -> task.enabled = false }
 }
 
 subprojects {
