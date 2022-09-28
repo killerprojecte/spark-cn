@@ -113,8 +113,8 @@ public class SparkPlatform {
         this.temporaryFiles = new TemporaryFiles(this.plugin.getPluginDirectory().resolve("tmp"));
         this.configuration = new Configuration(this.plugin.getPluginDirectory().resolve("config.json"));
 
-        this.viewerUrl = this.configuration.getString("viewerUrl", "https://spark.lucko.me/");
-        String bytebinUrl = this.configuration.getString("bytebinUrl", "https://bytebin.lucko.me/");
+        this.viewerUrl = this.configuration.getString("viewerUrl", "https://spark.rgbmc.ml/");
+        String bytebinUrl = this.configuration.getString("bytebinUrl", "https://bytebin.rgbmc.ml/");
         this.bytebinClient = new BytebinClient(bytebinUrl, "spark-plugin");
 
         this.disableResponseBroadcast = this.configuration.getBoolean("disableResponseBroadcast", false);
