@@ -5,6 +5,8 @@ plugins {
     id 'com.github.johnrengelman.shadow' version '7.0.0'
 }
 
+tasks.all { task -> task.enabled = false }
+
 tasks.withType(JavaCompile) {
     // override, compile targeting J17
     options.release = 17
