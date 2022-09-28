@@ -41,7 +41,7 @@ subprojects {
     repositories {
         mavenCentral()
         maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
-        maven { url "https://repo.lucko.me/" }
+        maven { url "https://repo.fastmcmirror.org/content/repositories/proxy/" }
         maven { url "https://jitpack.io" }
     }
 
