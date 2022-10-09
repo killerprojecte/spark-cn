@@ -9,7 +9,7 @@ dependencies {
     
     // placeholders
     compileOnly 'me.clip:placeholderapi:2.10.3'
-    compileOnly('be.maximvdw:MVdWPlaceholderAPI:3.0.1-SNAPSHOT') {
+    compileOnly('be.maximvdw:MVdWPlaceholderAPI:3.1.1') {
         exclude(module: 'MVdWUpdater')
     }
 }
